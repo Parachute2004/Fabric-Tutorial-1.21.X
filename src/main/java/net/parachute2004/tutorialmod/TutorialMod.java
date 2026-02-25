@@ -2,6 +2,7 @@ package net.parachute2004.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.parachute2004.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Loading TutorialMod");
+		ModItems.registerModItems();
 	}
 }
