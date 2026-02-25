@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "tutorialmod",
-	"version": "1.0.0",
+	"version": "0.0.2",
 	"name": "Tutorial Mod",
 	"description": "This is a Tutorial Mod following the 'Modding by Kaupenjoe' tutorial",
 	"authors": [
